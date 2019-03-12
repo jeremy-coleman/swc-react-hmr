@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack && cpx public/* build",
+    "dev": "ecstatic build --port 3000",
+    "start": "wp --config ./webpack.config"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@hot-loader/react-dom": "16.8.4",
+    "@swc/core": "1.0.38",
+    "cpx": "1.5.0",
+    "ecstatic": "^3.3.0",
+    "react-hot-loader": "^4.8.0",
+    "swc": "^1.0.0-beta.21",
+    "swc-loader": "0.1.4",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
+    "webpack": "^4.28.4",
+    "webpack-nano": "0.6.1",
+    "webpack-plugin-serve": "0.7.3"
+  }
+}

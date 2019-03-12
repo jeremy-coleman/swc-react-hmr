@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "outDir": "_never",
+    "allowJs": true,
+    "checkJs": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./src"
+  },
+  "include":["tools/types/*.d.ts", "src"],
+  "exclude": ["node_modules", "tools"]
+}
